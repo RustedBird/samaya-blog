@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+
+
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+a:hover, a:focus, a:active {
+    text-decoration: none;
+}
+
+
+
+.main-section {
+    /*padding: 130px 0;*/
+}
+.logo-item {
+    text-align: center;
+    cursor: pointer;
+}
+.logo-item:hover .desc-wrapper {
+    opacity: 1;
+}
+.main-logo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.logo-row {
+    /*min-height: 300px;*/
+}
+.desc-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s linear;
+}
+.logo-description {
+    display: inline-block;
+    padding: 2% 5%;
+    color: #717E8A;
+    position: relative;
+    margin-bottom: 10%;
+}
+.logo-description:after {
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    left: calc((50% - 313px/2)/2);
+    width: 313px;
+    height: 22px;
+    background: url(../img/botShadow.png) no-repeat;
+    background-size: cover;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .desc-wrapper {
+        height: 150px;
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 767px) {
+    .desc-wrapper {
+        width: 80%;
+    }
+    .logo-description:after {
+        left: calc((60% - 313px/2)/2);
+    }
+}
+@media screen and (max-width: 576px) {
+    .desc-wrapper {
+        width: 100%;
+    }
+    .logo-description:after {
+        left: 0;
+        width: 100%;
+        height: 15px;
+        bottom: -15px;
+    }
+    img {
+        width: 70%;
+        height: auto;
+    }
+    .main-logo img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .desc-wrapper {
+        height: 220px;
+    }
+}
