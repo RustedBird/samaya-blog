@@ -4,104 +4,109 @@
     }
 }
 
-svg {
-    width: 50%;
-    display: block;
-    margin: 0 auto;
+#line1 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 1.8s linear forwards;
+}
+#line2 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 1.2s linear forwards 1.2s;
 }
 
 #path1 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 3.5s linear forwards;
+    animation: curse 1.2s linear forwards 2s;
 }
 #path2 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 0.8s;
+    animation: curse 1.2s linear forwards 2.4s;
 }
 #path3 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 1.5s;
+    animation: curse 1.2s linear forwards 2.8s;
 }
 #path4 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 2s;
+    animation: curse 1.2s linear forwards 3s;
 }
 #path5 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 2.5s;
+    animation: curse 1.2s linear forwards 3.2s;
 }
 #path6 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 2.9s;
+    animation: curse 1.2s linear forwards 3.4s;
 }
 #path7 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 3.3s;
+    animation: curse 1.2s linear forwards 3.6s;
 }
 #path8 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 3.7s;
+    animation: curse 1.2s linear forwards 3.8s;
 }
 #path9 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 4.1s;
+    animation: curse 1.2s linear forwards 4s;
 }
 #path10 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 4.5s;
+    animation: curse 1.2s linear forwards 4.2s;
 }
 #path11 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 4.9s;
+    animation: curse 1.2s linear forwards 4.4s;
 }
 #path12 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 5.3s;
+    animation: curse 1.2s linear forwards 4.6s;
 }
 #path13 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 5.7s;
+    animation: curse 1.2s linear forwards 4.8s;
 }
 #path14 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 6.1s;
+    animation: curse 1.2s linear forwards 5s;
 }
 #path15 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 6.5s;
+    animation: curse 1.2s linear forwards 5.2s;
 }
 #path16 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 6.9s;
+    animation: curse 1.2s linear forwards 5.4s;
 }
 #path17 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 7.3s;
+    animation: curse 1.2s linear forwards 5.6s;
 }
 #path18 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 7.7s;
+    animation: curse 1.2s linear forwards 5.8s;
 }
 #path19 {
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    animation: curse 2.1s linear forwards 8.1s;
+    animation: curse 1.2s linear forwards 6s;
 }
