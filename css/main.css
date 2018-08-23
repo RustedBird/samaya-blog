@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-
+@import url('animation.css');
 
 
 
@@ -89,7 +89,7 @@ a:hover, a:focus, a:active {
         width: 70%;
         height: auto;
     }
-    .main-logo img {
+    .main-logo svg {
         width: 100%;
     }
 }

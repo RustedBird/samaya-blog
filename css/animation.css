@@ -1,0 +1,107 @@
+@keyframes curse {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+svg {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#path1 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 3.5s linear forwards;
+}
+#path2 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 0.8s;
+}
+#path3 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 1.5s;
+}
+#path4 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 2s;
+}
+#path5 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 2.5s;
+}
+#path6 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 2.9s;
+}
+#path7 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 3.3s;
+}
+#path8 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 3.7s;
+}
+#path9 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 4.1s;
+}
+#path10 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 4.5s;
+}
+#path11 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 4.9s;
+}
+#path12 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 5.3s;
+}
+#path13 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 5.7s;
+}
+#path14 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 6.1s;
+}
+#path15 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 6.5s;
+}
+#path16 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 6.9s;
+}
+#path17 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 7.3s;
+}
+#path18 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 7.7s;
+}
+#path19 {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: curse 2.1s linear forwards 8.1s;
+}
